@@ -57,7 +57,7 @@ def main():
 	# prepare data
 	trainingSet=[]
 	testSet=[]
-	split = 0.98
+	split = 0.95
 	loadDataset('iris.csv', split, trainingSet, testSet)
 	print 'Train set: ' + repr(len(trainingSet))
 	print 'Test set: ' + repr(len(testSet))
